@@ -1,0 +1,251 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+select, button {
+    margin: 5px;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+/* CSS responsif untuk perangkat dengan lebar layar maksimum 600px (misalnya untuk tampilan di Android) */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px; /* Ukuran font lebih kecil pada perangkat Android */
+    }
+}
+
+
+/* Gaya untuk mengubah latar belakang select */
+#band-1, #band-2, #band-multiplier, #band-tolerance {
+    background-color: rgba(255, 254, 254, 0.059); /* Default latar belakang */
+}
+
+/* Gaya untuk setiap nilai warna pada band-1 */
+#band-1 option[value="black"] {
+    background-color: black;
+}
+
+#band-1 option[value="brown"] {
+    background-color: brown;
+}
+
+#band-1 option[value="red"] {
+    background-color: red;
+}
+
+#band-1 option[value="orange"] {
+    background-color: orange;
+}
+
+#band-1 option[value="yellow"] {
+    background-color: yellow;
+}
+
+#band-1 option[value="green"] {
+    background-color: green;
+}
+
+#band-1 option[value="blue"] {
+    background-color: blue;
+}
+
+#band-1 option[value="violet"] {
+    background-color: violet;
+}
+
+#band-1 option[value="grey"] {
+    background-color: grey;
+}
+
+#band-1 option[value="white"] {
+    background-color: white;
+}
+
+/* Gaya untuk setiap nilai warna pada band-2 */
+#band-2 option[value="black"] {
+    background-color: black;
+}
+
+#band-2 option[value="brown"] {
+    background-color: brown;
+}
+
+#band-2 option[value="red"] {
+    background-color: red;
+}
+
+#band-2 option[value="orange"] {
+    background-color: orange;
+}
+
+#band-2 option[value="yellow"] {
+    background-color: yellow;
+}
+
+#band-2 option[value="green"] {
+    background-color: green;
+}
+
+#band-2 option[value="blue"] {
+    background-color: blue;
+}
+
+#band-2 option[value="violet"] {
+    background-color: violet;
+}
+
+#band-2 option[value="grey"] {
+    background-color: grey;
+}
+
+#band-2 option[value="white"] {
+    background-color: white;
+}
+
+/* Gaya untuk setiap nilai warna pada band-multiplier */
+#band-multiplier option[value="black"] {
+    background-color: black;
+}
+
+#band-multiplier option[value="brown"] {
+    background-color: brown;
+}
+
+#band-multiplier option[value="red"] {
+    background-color: red;
+}
+
+#band-multiplier option[value="orange"] {
+    background-color: orange;
+}
+
+#band-multiplier option[value="yellow"] {
+    background-color: yellow;
+}
+
+#band-multiplier option[value="green"] {
+    background-color: green;
+}
+
+#band-multiplier option[value="blue"] {
+    background-color: blue;
+}
+
+#band-multiplier option[value="violet"] {
+    background-color: violet;
+}
+
+#band-multiplier option[value="grey"] {
+    background-color: grey;
+}
+
+#band-multiplier option[value="white"] {
+    background-color: white;
+}
+
+#band-multiplier option[value="gold"] {
+    background-color: gold;
+}
+
+#band-multiplier option[value="silver"] {
+    background-color: silver;
+}
+
+/* Gaya untuk setiap nilai warna pada band-tolerance */
+#band-tolerance option[value="brown"] {
+    background-color: brown;
+}
+
+#band-tolerance option[value="red"] {
+    background-color: red;
+}
+
+#band-tolerance option[value="green"] {
+    background-color: green;
+}
+
+#band-tolerance option[value="blue"] {
+    background-color: blue;
+}
+
+#band-tolerance option[value="violet"] {
+    background-color: violet;
+}
+
+#band-tolerance option[value="grey"] {
+    background-color: grey;
+}
+
+#band-tolerance option[value="gold"] {
+    background-color: gold;
+}
+
+#band-tolerance option[value="silver"] {
+    background-color: silver;
+}
+
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+  }
+
+  .line {
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    margin-right: 0;
+  }
+
+  .circle {
+    width: 190px;
+    height: 60px;
+    background-color: #816e46;
+    border-radius: 41%;
+    border: 2px solid black;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .color-band {
+    width: 10px; /* Lebar gelang warna */
+    height: 100%; /* Tinggi gelang warna */
+    background-color: #F06D06; /* Warna gelang */
+    position: absolute;
+    top: 0;
+  }
+
+  .band1 {
+    left: 25%; /* Posisi gelang warna pertama */
+  
+  }
+
+  .band2 {
+    left: 45%; /* Posisi gelang warna kedua */
+  }
+
+  .band3 {
+    left: 65%; /* Posisi gelang warna ketiga */
+  }
+
+  .band4 {
+    left: 90%; /* Posisi gelang warna keempat */
+  }
+
+  

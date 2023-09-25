@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistor Color Code Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Resistor Color Code Calculator</h1>
+    
+    <h2>4 Band Resistor</h2>
+    <!-- Band 1 -->
+    <label for="band-1">Band 1:</label>
+    <select id="band-1"></select>
+    
+    <!-- Band 2 -->
+    <label for="band-2">Band 2:</label>
+    <select id="band-2"></select>
+    
+    <!-- Band Multiplier -->
+    <label for="band-multiplier">Band Multiplier:</label>
+    <select id="band-multiplier"></select>
+    
+    <!-- Band Tolerance -->
+    <label for="band-tolerance">Band Tolerance:</label>
+    <select id="band-tolerance"></select>
+    
+    <button class="calculate">Calculate</button>
+    
+    <div id="result"></div>
+    
+    <div class="container">
+        <div class="line"></div>
+        <div class="circle">
+            <div class="color-band band1"></div>
+            <div class="color-band band2"></div>
+            <div class="color-band band3"></div>
+            <div class="color-band band4"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
